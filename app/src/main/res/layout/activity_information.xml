@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="147dp"
+        android:layout_height="70dp"
+        android:onClick="goBack"
+        android:text="Выход"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="686dp"
+        android:layout_height="208dp"
+        android:text="Tower Defence - игра, в которой главная задача это защищать главную башню от врагов. Это вы можете делать посредством башен, и их улучшений. Средства на это можно получить после каждой пройденной волны. Есть несколько видов врагов и башен. Разные враги имеют разное количество здоровья,урона,а также скорости. Башни различаются по урону и скорости стрельбы, быть уничтожены врагами не могут. Враги наносят урон только главной башни, при разрушении которой игра будет проиграна. В игре есть магазин, в котором можно тратить заработанные монеты. Можно преобрести новые башни, улучшить уже построенные, улучшить главную башню а также восстановить ей здоровье."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+</androidx.constraintlayout.widget.ConstraintLayout>
